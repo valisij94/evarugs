@@ -713,9 +713,9 @@ body.modal {
     }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 480px) {
     .review__slide-img {
-        top: -40%;
+        top: -55%;
     }
 
     .main-display__top {
@@ -777,5 +777,11 @@ body.modal {
 
     .modal__policy {
         font-size: 1rem;
+    }
+
+    @media (max-width: 370px) {
+        .review__slide-img {
+            top: -42.5%;
+        }
     }
 }
