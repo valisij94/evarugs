@@ -663,6 +663,11 @@ body.modal {
         padding: 0 3rem;
     }
 
+    .about__header {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
     .review__slide-img {
         top: -55%;
     }
@@ -702,10 +707,75 @@ body.modal {
     .footer__wrap li {
         text-align: center;
     }
+
+    .footer__decor-1, .footer__decor-2 {
+        display: none;
+    }
 }
 
 @media (max-width: 330px) {
     .review__slide-img {
         top: -40%;
+    }
+
+    .main-display__top {
+        justify-content: center;
+    }
+
+    .main-display__header {
+        font-size: 2.5rem;
+        line-height: 115%;
+    }
+
+    .main-display__subheader {
+        font-size: 2rem;
+    }
+
+    .main-display__left {
+        padding-top: 3.8rem;
+    }
+
+    .main-display__logo-img {
+        width: 6rem;
+        height: 3.6rem;
+    }
+
+    .main-display__title {
+        font-size: 1.8rem;
+    }
+
+    .main-display__button {
+        padding: 0.9rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .about__item-header {
+        font-size: 3rem;
+    }
+
+    .modal__wrap-input {
+        width: 100%;
+        min-height: auto;
+        height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .modal__item {
+        flex-direction: column;
+        max-height: 9rem;
+    }
+
+    .modal__item:first-child {
+        margin-bottom: 0;
+    }
+
+    .modal__policy input {
+        width: auto;
+        height: auto;
+        margin-right: 0.5rem;
+    }
+
+    .modal__policy {
+        font-size: 1rem;
     }
 }
